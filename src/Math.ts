@@ -20,31 +20,29 @@ export default class Math implements IMath {
         return new Promise(function (fulfill, reject) {
             var pArr : Array<any> = [];
             for (let url of urls) {
-                rp('url').then(function (JSONbody) {
-                    console.log(url);
-                    console.log(JSONbody);
-                    pArr.push(new Promise(function (fulfill, reject) {
-                        fulfill(JSONbody);
-                    }))
+                rp(url).then(function (responseText) {
+                    console.log(responseText);
                 }).catch(function (err) {
-                    //URL ERROR
-                    console.error('Error: URL could not be retrieved' + err);
-                })
+                    reject('Error: URL could not be retrieved')
+                });
+                pArr.push(rp(url));
             }
-            fulfill();
-            /*
-            // Parse array of JSON
-            Promise.all(pArr).then(function (result) {
+            // Parse array of JSONs
+            Promise.all(pArr).then(function (results) {
+                var parsedArray : Array<any> = [];
                 try {
-                    let i = JSON.parse(result);
-                    fulfill(i);
+                    for (let result of results) {
+                        let i = JSON.parse(results);
+                        parsedArray.push(i);
+                    }
                 } catch (Error) {
                     reject('Error: JSON could not be parsed')
                 }
-            }).catch(function (err) {
-                Error('Error: URL could not be retrieved');
+                fulfill(parsedArray);
 
-            }); */
+            }).catch(function (err) {
+                reject('Error: URL could not be retrieved');
+            });
         })
 
     }

@@ -19,26 +19,24 @@ describe("MathSpec", function () {
     });
 
     it("getJSON should fulfill empty array when given empty array", function () {
-        return math.getJSON(['http://skaha.cs.ubc.ca:11313/4968.json']).then(function (value: Array<any>) {
+        return math.getJSON([]).then(function (value: Array<any>) {
             Log.test('Value: ' + value);
-            //expect(value).to.deep.equal([]);
+            expect(value).to.deep.equal([]);
         }).catch(function (err) {
             Log.test('Error: ' + err);
-            //expect.fail();
+            expect.fail();
         })
     });
 
-    /*
+
     it("fulfill valid URL", function () {
         return math.getJSON(['http://skaha.cs.ubc.ca:11313/4968.json']).then(function (value: Array<any>) {
             Log.test('Value: ' + value);
-            //expect(value).to.deep.equal([[ 1, 2, 5, 4 ]]);
+            expect(value).to.deep.equal([[ 1, 2, 5, 4 ]]);
         }).catch(function (err) {
             Log.test('Error: ' + err);
-            //expect.fail();
+            expect.fail();
         })
-
-
-        }); */
+        });
 
 });
