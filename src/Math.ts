@@ -32,7 +32,7 @@ export default class Math implements IMath {
                 var parsedArray : Array<any> = [];
                 try {
                     for (let result of results) {
-                        let i = JSON.parse(results);
+                        let i = JSON.parse(result);
                         parsedArray.push(i);
                     }
                 } catch (Error) {
