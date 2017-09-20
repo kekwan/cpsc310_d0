@@ -16,12 +16,13 @@ export default class Math implements IMath {
         Log.trace('Math::init()');
     }
 
+    //returns a JSON Array
     getJSON(urls: string[]): Promise<Array<any>> {
         return new Promise(function (fulfill, reject) {
             var pArr : Array<any> = [];
             for (let url of urls) {
                 rp(url).then(function (responseText) {
-                    console.log(responseText);
+                    //console.log(responseText);
                 }).catch(function (err) {
                     reject('Error: URL could not be retrieved')
                 });
@@ -48,9 +49,30 @@ export default class Math implements IMath {
     }
 
     add(urls: string[]): Promise<number> {
+        let that = this;
         return new Promise(function (fulfill, reject) {
-            // TODO: implement
-            // fulfill(0);
+            let JSONarr = that.getJSON(urls);
+            var sum = 0;
+
+            //if promise is fulfilled by getJSON, then
+            //value is the array of JSON objects
+            JSONarr.then(function(value) {
+                for (let x of value) {
+                    console.log(x);
+                    // if x is an array already -> start adding
+                    if (x instanceof Array) {
+                        for (let n of x) {
+                            sum = sum + n;
+                        }
+                        fulfill(sum);
+                    }
+                    // x is a JSON object
+                    else {
+
+                    }
+
+                }
+            })
         });
     }
 }
