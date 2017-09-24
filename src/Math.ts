@@ -55,6 +55,7 @@ export default class Math implements IMath {
             let JSONarr = that.getJSON(urls);
             var sum = 0;
             var i = 0;
+            var numAdditions = 0;
 
             //if promise is fulfilled by getJSON, then
             //value is the array of JSON objects
@@ -71,12 +72,13 @@ export default class Math implements IMath {
                         }
                     }
                     else {
-                        let n = that.recurseThroughObjectToGetSum(x, 0);
-                        console.log('number from object :' + n);
-                        sum = sum + n;
+                        let n = that.recurseThroughObjectToGetSum(x, 0, i);
+                        numAdditions = n[1];
+                        i = i + numAdditions;
+                        sum = sum + n[0];
                     }
                 }
-                if (sum != 0)
+                if (i != 0 )
                     fulfill(sum);
                 else
                     reject('Error: No number was provided');
@@ -90,11 +92,11 @@ export default class Math implements IMath {
             })
         };
 
-    recurseThroughObjectToGetSum (obj : any, prevSum : number) : number {
-        // for each key in object
+    recurseThroughObjectToGetSum (obj : any, prevSum : number, sumCounter : number) : Array<number> {
         var sumOfObject = prevSum;
-        var i = 0;
+        var i = sumCounter;
 
+        // for each key in object
         for (let k in obj) {
             console.log('key is :' + k);
             console.log('see object : ' + obj[k]);
@@ -109,9 +111,11 @@ export default class Math implements IMath {
             }
             else {
                 if (typeof obj[k] == "object" && obj[k] != null && Object.keys(obj[k]).length != 0)
-                    return this.recurseThroughObjectToGetSum(obj[k], sumOfObject);
+                    return this.recurseThroughObjectToGetSum(obj[k], sumOfObject, i);
             }
         }
-        return sumOfObject;
+        var results = [sumOfObject, i];
+        return results;
+
     }
 }

@@ -183,14 +183,4 @@ describe("MathSpec", function () {
 
         })
     });
-
-
-
-
-
-
-
-
-
-
 });
