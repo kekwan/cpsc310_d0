@@ -173,6 +173,19 @@ describe("MathSpec", function () {
         })
     });
 
+    it("reject invalid JSON", function () {
+        return math.add(['http://skaha.cs.ubc.ca:11313/jdw3.json']).then(function (value: number) {
+            Log.test('Value: ' + value);
+            expect.fail()
+        }).catch(function (err) {
+            Log.test('Error: ' + err);
+            expect(err).to.deep.equal('Error: JSON could not be parsed');
+
+        })
+    });
+
+
+
 
 
 

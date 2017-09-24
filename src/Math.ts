@@ -47,6 +47,7 @@ export default class Math implements IMath {
         })
 
     }
+    // fix 0 adding
 
     add(urls: string[]): Promise<number> {
         let that = this;
@@ -68,9 +69,7 @@ export default class Math implements IMath {
                                 i++;
                             }
                         }
-
                     }
-
                     else {
                         let n = that.recurseThroughObjectToGetSum(x, 0);
                         console.log('number from object :' + n);
@@ -82,7 +81,10 @@ export default class Math implements IMath {
                 else
                     reject('Error: No number was provided');
             }).catch(function (err) {
-                reject('Error: URL could not be retrieved');
+                if (err == 'Error: URL could not be retrieved')
+                    reject('Error: URL could not be retrieved');
+                else
+                    reject('Error: JSON could not be parsed');
             })
 
             })
