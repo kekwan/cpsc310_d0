@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MathSpec.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MathSpec.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/MathSpec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="91" column="7" lean-forward="false" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
+            <state relative-caret-position="191">
+              <caret line="171" column="26" lean-forward="true" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#47#75#0" expanded="true" />
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Math.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Math.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Math.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="354">
+              <caret line="109" column="82" lean-forward="true" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#62#87#0" expanded="true" />
@@ -69,10 +69,10 @@
       <file leaf-file-name="MathSpec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/MathSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-425">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="139" column="7" lean-forward="false" selection-start-line="139" selection-start-column="7" selection-end-line="139" selection-end-column="7" />
               <folding>
-                <marker date="1505948578000" expanded="true" signature="220:2875" ph="{...}" />
+                <marker date="1506217639000" expanded="true" signature="5551:5982" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,8 +87,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/MathSpec.js" />
-        <option value="$PROJECT_DIR$/test/MathSpec.ts" />
         <option value="$PROJECT_DIR$/src/Math.ts" />
+        <option value="$PROJECT_DIR$/test/MathSpec.ts" />
       </list>
     </option>
   </component>
@@ -104,7 +104,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
+    <option name="x" value="10" />
     <option name="y" value="23" />
     <option name="width" value="1220" />
     <option name="height" value="679" />
@@ -152,8 +152,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,47 +275,49 @@
       <updated>1505458303356</updated>
       <workItem from="1505458310377" duration="21431000" />
       <workItem from="1505715484923" duration="6460000" />
-      <workItem from="1505945276133" duration="3201000" />
+      <workItem from="1505945276133" duration="5846000" />
+      <workItem from="1505960417289" duration="986000" />
+      <workItem from="1506205267665" duration="10153000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MathSpec_fulfill_1_URL - 2017.09.20 at 15h 40m 36s.xml">
-      <configuration name="MathSpec.fulfill 1 URL" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Unnamed_(1) - 2017.09.18 at 01h 02m 59s.xml">
+    <history-entry file="Unnamed_(1) - 2017.09.23 at 18h 36m 49s.xml">
       <configuration name="Unnamed (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed_(1) - 2017.09.20 at 15h 12m 05s.xml">
+    <history-entry file="Unnamed_(1) - 2017.09.23 at 18h 40m 00s.xml">
       <configuration name="Unnamed (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed_(1) - 2017.09.20 at 15h 13m 36s.xml">
+    <history-entry file="Unnamed_(1) - 2017.09.23 at 18h 40m 13s.xml">
       <configuration name="Unnamed (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed_(1) - 2017.09.20 at 15h 40m 09s.xml">
+    <history-entry file="Unnamed_(1) - 2017.09.23 at 18h 42m 43s.xml">
       <configuration name="Unnamed (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed_(1) - 2017.09.20 at 15h 42m 12s.xml">
+    <history-entry file="Unnamed_(1) - 2017.09.23 at 18h 42m 58s.xml">
       <configuration name="Unnamed (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed_(1) - 2017.09.20 at 15h 44m 03s.xml">
+    <history-entry file="Unnamed_(1) - 2017.09.23 at 18h 43m 16s.xml">
       <configuration name="Unnamed (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed_(1) - 2017.09.20 at 16h 03m 09s.xml">
+    <history-entry file="Unnamed_(1) - 2017.09.23 at 18h 45m 16s.xml">
       <configuration name="Unnamed (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed_(1) - 2017.09.20 at 16h 03m 24s.xml">
+    <history-entry file="Unnamed_(1) - 2017.09.23 at 18h 45m 37s.xml">
       <configuration name="Unnamed (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed_(1) - 2017.09.20 at 16h 04m 09s.xml">
+    <history-entry file="Unnamed_(1) - 2017.09.23 at 18h 45m 47s.xml">
+      <configuration name="Unnamed (1)" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Unnamed_(1) - 2017.09.23 at 18h 47m 24s.xml">
       <configuration name="Unnamed (1)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31092000" />
+    <option name="totallyTimeSpent" value="44876000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1220" height="679" extended-state="0" />
+    <frame x="10" y="23" width="1220" height="679" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -324,11 +326,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15753424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5667808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989726" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26712328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -376,11 +378,109 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Math.ts</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/MathSpec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="142" column="7" lean-forward="false" selection-start-line="142" selection-start-column="7" selection-end-line="142" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#47#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MathSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" column="7" lean-forward="false" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+          <folding>
+            <marker date="1506217639000" expanded="true" signature="5551:5982" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="98" column="14" lean-forward="false" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#62#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MathSpec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#47#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="98" column="14" lean-forward="true" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#62#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MathSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" column="7" lean-forward="true" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+          <folding>
+            <marker date="1506217639000" expanded="true" signature="5551:5982" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/MathSpec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -415,7 +515,7 @@
         <state relative-caret-position="420">
           <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding>
-            <marker date="1505948578000" expanded="true" signature="220:2875" ph="{...}" />
+            <marker date="1506217639000" expanded="true" signature="5551:5982" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -468,7 +568,7 @@
         <state relative-caret-position="270">
           <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
-            <marker date="1505948578000" expanded="true" signature="220:2875" ph="{...}" />
+            <marker date="1506217639000" expanded="true" signature="5551:5982" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -477,6 +577,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -491,42 +599,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/MathSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="139" column="7" lean-forward="false" selection-start-line="139" selection-start-column="7" selection-end-line="139" selection-end-column="7" />
           <folding>
-            <marker date="1505948578000" expanded="true" signature="220:2875" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/MathSpec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="91" column="7" lean-forward="false" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#47#75#0" expanded="true" />
+            <marker date="1506217639000" expanded="true" signature="5551:5982" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Math.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="354">
+          <caret line="109" column="82" lean-forward="true" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#62#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MathSpec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="171" column="26" lean-forward="true" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#47#75#0" expanded="true" />
           </folding>
         </state>
       </provider>

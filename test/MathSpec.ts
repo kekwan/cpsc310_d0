@@ -109,7 +109,7 @@ describe("MathSpec", function () {
         })
     });
 
-    it("reject No Number URL", function () {
+    it("reject No URL", function () {
         return math.add([]).then(function (value: number) {
             Log.test('Value: ' + value);
             expect.fail();
@@ -139,6 +139,40 @@ describe("MathSpec", function () {
 
         })
     });
+
+    it("reject array URL that has strings", function () {
+        return math.add(['http://skaha.cs.ubc.ca:11313/4670.json']).then(function (value: number) {
+            Log.test('Value: ' + value);
+            expect.fail();
+        }).catch(function (err) {
+            Log.test('Error: ' + err);
+            expect(err).to.deep.equal('Error: No number was provided');
+
+        })
+    });
+
+    it("fulfill nested object", function () {
+        return math.add(['http://skaha.cs.ubc.ca:11313/h5e8.json']).then(function (value: number) {
+            Log.test('Value: ' + value);
+            expect(value).to.deep.equal(11);
+
+        }).catch(function (err) {
+            Log.test('Error: ' + err);
+            expect.fail();
+        })
+    });
+
+    it("fulfill nested urls", function () {
+        return math.add(['http://skaha.cs.ubc.ca:11313/h5e8.json', 'http://skaha.cs.ubc.ca:11313/822d.json' ]).then(function (value: number) {
+            Log.test('Value: ' + value);
+            expect(value).to.deep.equal(17);
+
+        }).catch(function (err) {
+            Log.test('Error: ' + err);
+            expect.fail();
+        })
+    });
+
 
 
 

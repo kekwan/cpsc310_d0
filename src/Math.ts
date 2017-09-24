@@ -53,6 +53,7 @@ export default class Math implements IMath {
         return new Promise(function (fulfill, reject) {
             let JSONarr = that.getJSON(urls);
             var sum = 0;
+            var i = 0;
 
             //if promise is fulfilled by getJSON, then
             //value is the array of JSON objects
@@ -62,17 +63,53 @@ export default class Math implements IMath {
                     // if x is an array already -> start adding
                     if (x instanceof Array) {
                         for (let n of x) {
-                            sum = sum + n;
+                            if (typeof n === 'number') {
+                                sum = sum + n;
+                                i++;
+                            }
                         }
-                        fulfill(sum);
+
                     }
-                    // x is a JSON object
+
                     else {
-
+                        let n = that.recurseThroughObjectToGetSum(x, 0);
+                        console.log('number from object :' + n);
+                        sum = sum + n;
                     }
-
                 }
+                if (sum != 0)
+                    fulfill(sum);
+                else
+                    reject('Error: No number was provided');
+            }).catch(function (err) {
+                reject('Error: URL could not be retrieved');
             })
-        });
+
+            })
+        };
+
+    recurseThroughObjectToGetSum (obj : any, prevSum : number) : number {
+        // for each key in object
+        var sumOfObject = prevSum;
+        var i = 0;
+
+        for (let k in obj) {
+            console.log('key is :' + k);
+            console.log('see object : ' + obj[k]);
+            if (obj[k] instanceof Array) {
+                for (let n of obj[k]) {
+                    if (typeof n === 'number') {
+                        sumOfObject = sumOfObject + n;
+                        console.log('sumOfObject :' + sumOfObject);
+                        i++;
+                    }
+                }
+            }
+            else {
+                if (typeof obj[k] == "object" && obj[k] != null && Object.keys(obj[k]).length != 0)
+                    return this.recurseThroughObjectToGetSum(obj[k], sumOfObject);
+            }
+        }
+        return sumOfObject;
     }
 }
