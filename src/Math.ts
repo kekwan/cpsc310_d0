@@ -22,7 +22,6 @@ export default class Math implements IMath {
             var pArr : Array<any> = [];
             for (let url of urls) {
                 rp(url).then(function (responseText) {
-                    //console.log(responseText);
                 }).catch(function (err) {
                     reject('Error: URL could not be retrieved')
                 });
@@ -61,7 +60,6 @@ export default class Math implements IMath {
             //value is the array of JSON objects
             JSONarr.then(function(value) {
                 for (let x of value) {
-                    console.log(x);
                     // if x is an array already -> start adding
                     if (x instanceof Array) {
                         for (let n of x) {
@@ -98,13 +96,10 @@ export default class Math implements IMath {
 
         // for each key in object
         for (let k in obj) {
-            console.log('key is :' + k);
-            console.log('see object : ' + obj[k]);
             if (obj[k] instanceof Array) {
                 for (let n of obj[k]) {
                     if (typeof n === 'number') {
                         sumOfObject = sumOfObject + n;
-                        console.log('sumOfObject :' + sumOfObject);
                         i++;
                     }
                 }
