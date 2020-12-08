@@ -37,6 +37,6 @@
 	"mochawesome": "^1.5.2",
 	"request": "^2.79.0",
 	"request-promise-native": "^1.0.3",
-	"typescript": "^2.1.X"
+	"typescript": "^2.9.2"
     }
 }
