@@ -29,7 +29,7 @@
 	"@types/mocha": "^2.2.33",
 	"@types/node": "^6.0.52",
 	"@types/request": "^0.0.45",
-	"@types/request-promise-native": "^1.0.2",
+	"@types/request-promise-native": "^1.0.17",
 	"@types/restify": "^2.0.35",
 	"chai": "^3.5.0",
 	"istanbul": "^0.4.5",
